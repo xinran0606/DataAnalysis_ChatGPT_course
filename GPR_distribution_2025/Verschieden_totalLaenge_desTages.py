@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("Table/GPR_distribution_2025-10-17_13-56-19_Kurz(1).csv")
+df = pd.read_csv("GPR_distribution_2025-10-17_13-56-19_Kurz(1).csv")
 
 df['von'] = pd.to_datetime(df['von'], format='%H:%M')
 df['bis'] = pd.to_datetime(df['bis'], format='%H:%M') # String kann nicht von einander substraieren, aber Typ time geht es.

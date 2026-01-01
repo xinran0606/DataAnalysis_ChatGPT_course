@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-df = pd.read_csv("Table/GPR_distribution_2025-10-17_13-56-19_Kurz(1).csv")
+df = pd.read_csv("GPR_distribution_2025-10-17_13-56-19_Kurz(1).csv")
 
 print(df.columns)
 
